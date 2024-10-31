@@ -5,7 +5,7 @@
 
 The Goal is to build a text classification model that will predict whether a piece of text is *positive*, *negative* or *neutral*
 
-This Experiment uses the [**Unified Multilingual Sentiment Analysus Benchmark dataset**](https://huggingface.co/datasets/cardiffnlp/tweet_sentiment_multilingual) the models used in this experiment are **only trained on English examples** from the dataset.
+This Experiment uses the [**Unified Multilingual Sentiment Analysus Benchmark](https://huggingface.co/datasets/cardiffnlp/tweet_sentiment_multilingual) dataset. the models used in this experiment are **only trained on English examples** from the dataset for classification.
 
 **Dataset**
 
@@ -16,6 +16,12 @@ This Experiment uses the [**Unified Multilingual Sentiment Analysus Benchmark da
 
 ## Models Used in this Experiment
 
-[Llama-3.2-1B](https://huggingface.co/meta-llama/Llama-3.2-1B)
-[Llama-3.2-3B](https://huggingface.co/meta-llama/Llama-3.2-3B)
-[Phi-3.5-mini-instruct](https://huggingface.co/microsoft/Phi-3.5-mini-instruct)
+[Llama-3.2-1B](https://huggingface.co/meta-llama/Llama-3.2-1B)  
+[Llama-3.2-3B](https://huggingface.co/meta-llama/Llama-3.2-3B)  
+[Phi-3.5-mini-instruct](https://huggingface.co/microsoft/Phi-3.5-mini-instruct)  
+
+**HuggingFace**
+
+[Trainer](https://huggingface.co/docs/transformers/main_classes/trainer)  
+[Datasets](https://huggingface.co/datasets1)
+[DataSet Loader](https://huggingface.co/docs/datasets/v2.15.0/loading)
